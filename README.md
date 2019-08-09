@@ -138,6 +138,9 @@ result as a baseline.
 
 ![HIBERT architecture](img/HIBERT.png)
 
+### [STRASS: A Light and Effective Method for Extractive Summarization Based on Sentence Embeddings](https://aclweb.org/anthology/papers/P/P19/P19-2034/)
+The authors leverage the semantic information in the sentence embedding space to create an extractive summary, in a computationally efficient manner. They also introduce a new dataset, CASS, built from judgments of the French Court of Cassation and the corresponding summaries.
+
 ## Abstractive models
 
 ### [Scoring Sentence Singletons and Pairs for Abstractive Summarization](http://arxiv.org/abs/1906.00077)
