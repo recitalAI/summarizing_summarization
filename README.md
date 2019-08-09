@@ -1,4 +1,5 @@
 # Summarizing Summarization @ ACL 2019
+![](https://github.com/recitalAI/summarizing_summarization/blob/master/img/summarizing.jpg)
 
 ## New Data, More Data
 
