@@ -1,5 +1,10 @@
-# Summarizing Summarization @ ACL 2019
+# Summarizing Summarization
 ![](img/summarizing.jpg)
+
+# EMNLP 2019
+coming asap
+
+# ACL 2019
 
 ## New Data, More Data
 
