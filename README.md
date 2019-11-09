@@ -2,7 +2,30 @@
 ![](img/summarizing.jpg)
 
 # EMNLP 2019
-coming asap
+## Datasets 
+
+## Abstractive models
+
+
+### [Text Summarization with Pretrained Encoders](https://arxiv.org/abs/1908.08345)
+Liu and Lapata introduce a novel document-level encoder based on BERT which for extractive and abstractive summarization.
+For extractive summarization, the model is built on top of this encoder by stacking several intersentence Transformer layers.
+While for Abstractive summarization they introduce a two-staged fine-tuning approach can further boost the quality of the generated summaries. For the latter, they use a standard encoder-decoder architecture with the encoder initialized to bert. To alleviate the mismatch between the pretrained encoder and the decoder they design a new fine-tuning schedule which separates the optimizers of the encoder and the decoder.
+<img src="https://i.imgur.com/MjCuBMq.png" />
+
+## Extractive models 
+
+
+## Evaluation 
+
+### [Earlier Isn’t Always Better: Submodular Analysis on Corpus and System Biases in Summarization](https://www.aclweb.org/anthology/D19-1327.pdf)
+
+Authors conduct an impressive amount of experiments to analyse systems and corpora bias in Summarization models using three sub-aspects of summarization: position, importance, and diversity, using state of the art abstractive and extractive summarization models on various amount of summarization corpora from different domains (e.g., news, academic papers, meeting minutes, movie script, books,
+posts). The paper shows lot of useful analysis for example we can find that position exhibits substantial bias in news articles, while not as much in academic papers and meeting minutes. Overall, this study provides useful lessons regarding consideration of underlying sub-aspects when collecting a new summarization dataset or developing a new system.
+
+<img src="https://i.imgur.com/mpHwSYW.png" width=400px align=right/>
+<img src="https://i.imgur.com/D9yJONK.png" width=400px align=right/>
+
 
 # ACL 2019
 
@@ -146,6 +169,7 @@ result as a baseline.
 ### [STRASS: A Light and Effective Method for Extractive Summarization Based on Sentence Embeddings](https://aclweb.org/anthology/papers/P/P19/P19-2034/)
 The authors leverage the semantic information in the sentence embedding space to create an extractive summary, in a computationally efficient manner. They also introduce a new dataset, CASS, built from judgments of the French Court of Cassation and the corresponding summaries.
 
+
 ## Abstractive models
 
 ### [Scoring Sentence Singletons and Pairs for Abstractive Summarization](http://arxiv.org/abs/1906.00077)
@@ -212,14 +236,6 @@ methods. In addition to ROUGE and length control, the authors report the
 average generation time, along with a human assessment.
 
 ## Evaluation
-
-### [Earlier Isn’t Always Better: Submodular Analysis on Corpus and System Biases in Summarization](https://www.aclweb.org/anthology/D19-1327.pdf)
-
-Authors conduct an impressive amount of experiments to analyse systems and corpora bias in Summarization models using three sub-aspects of summarization: position, importance, and diversity, using state of the art abstractive and extractive summarization models on various amount of summarization corpora from different domains (e.g., news, academic papers, meeting minutes, movie script, books,
-posts). The paper shows lot of useful analysis for example we can find that position exhibits substantial bias in news articles, while not as much in academic papers and meeting minutes. Overall, this study provides useful lessons regarding consideration of underlying sub-aspects when collecting a new summarization dataset or developing a new system.
-
-<img src="https://i.imgur.com/mpHwSYW.png" width=400px align=right/>
-<img src="https://i.imgur.com/D9yJONK.png" width=400px align=right/>
 
 ### [HighRES: Highlight-based Reference-less Evaluation of Summarization](http://arxiv.org/abs/1906.01361)
 
