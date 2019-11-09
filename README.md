@@ -218,6 +218,9 @@ average generation time, along with a human assessment.
 Authors conduct an impressive amount of experiments to analyse systems and corpora bias in Summarization models using three sub-aspects of summarization: position, importance, and diversity, using state of the art abstractive and extractive summarization models on various amount of summarization corpora from different domains (e.g., news, academic papers, meeting minutes, movie script, books,
 posts). The paper shows lot of useful analysis for example we can find that position exhibits substantial bias in news articles, while not as much in academic papers and meeting minutes. Overall, this study provides useful lessons regarding consideration of underlying sub-aspects when collecting a new summarization dataset or developing a new system.
 
+<img src="https://i.imgur.com/mpHwSYW.png" width=400px align=right/>
+<img src="https://i.imgur.com/D9yJONK.png" width=400px align=right/>
+
 ### [HighRES: Highlight-based Reference-less Evaluation of Summarization](http://arxiv.org/abs/1906.01361)
 
 Automatic summarization evaluation is an open research question and the
